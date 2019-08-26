@@ -13,7 +13,7 @@ process.stdin.on('readable', function() {
                 case 'specs':
                     console.log('Node version: ' + process.versions.node);
                     console.log('System language: ' + process.env.lang);
-//                    getOSinfo(); //funkcja którą powinieneś stworzyć później w 17.3
+
                 break;
                 default:
                     process.stderr.write('Wrong instruction!\n');
